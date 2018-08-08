@@ -51,7 +51,96 @@ const MyCalendar = props => (
             end: new Date(2018, 7, 11), 
             allDay: false 
         },
-
+        {
+            title: "DC, Shay Lovett, Danny Platt",
+            start: new Date(2018, 7, 14), 
+            end: new Date(2018, 7, 14), 
+            allDay: false 
+        },
+        {
+            title: "Shannon Lee, DT",
+            start: new Date(2018, 7, 17), 
+            end: new Date(2018, 7, 17), 
+            allDay: false 
+        },
+        {
+            title: "David Griffin, Steve Simpson",
+            start: new Date(2018, 7, 18), 
+            end: new Date(2018, 7, 18), 
+            allDay: false 
+        },
+        {
+            title: "Chris Peace and band",
+            start: new Date(2018, 7, 24), 
+            end: new Date(2018, 7, 24), 
+            allDay: false 
+        },
+        {
+            title: "Don Eidman, DT, Al Lemmond",
+            start: new Date(2018, 7, 25), 
+            end: new Date(2018, 7, 25), 
+            allDay: false 
+        },
+        {
+            title: "mike Nolan, Louis Beeler, Bernie Swayngim",
+            start: new Date(2018, 7, 31), 
+            end: new Date(2018, 7, 31), 
+            allDay: false 
+        },
+        {
+            title: "Chad Bowden, DT, and Rick Spreitzer",
+            start: new Date(2018, 8, 1), 
+            end: new Date(2018, 8, 1), 
+            allDay: false 
+        },
+        {
+            title: "Darcie Richardson, Paul Lover",
+            start: new Date(2018, 8, 8), 
+            end: new Date(2018, 8, 8), 
+            allDay: false 
+        },
+        {
+            title: "Kevin Marshall, DT, Jamie Kay",
+            start: new Date(2018, 8, 14), 
+            end: new Date(2018, 8, 14), 
+            allDay: false 
+        },
+        {
+            title: "Scott Bianchi, DT",
+            start: new Date(2018, 8, 15), 
+            end: new Date(2018, 8, 15), 
+            allDay: false 
+        },
+        {
+            title: "Herschel Brown, Barb Gardiner, DT",
+            start: new Date(2018, 8, 21), 
+            end: new Date(2018, 8, 21), 
+            allDay: false 
+        },
+        {
+            title: "Kat, DC, Jack Lawrence",
+            start: new Date(2018, 8, 22), 
+            end: new Date(2018, 8, 22), 
+            allDay: false 
+        },
+        {
+            title: "Lou Breaux, Randy Higgins, Marie Calabro, DT",
+            start: new Date(2018, 8, 28), 
+            end: new Date(2018, 8, 28), 
+            allDay: false 
+        },
+        {
+            title: "Kathy Hall, DT, Chuck Johnson",
+            start: new Date(2018, 8, 29), 
+            end: new Date(2018, 8, 29), 
+            allDay: false 
+        },
+        {
+            title: "DC, Chris English, DT",
+            start: new Date(2018, 9, 5), 
+            end: new Date(2018, 9, 5), 
+            allDay: false 
+        },
       ]}
 
       step={60}
