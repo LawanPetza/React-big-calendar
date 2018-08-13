@@ -12,13 +12,13 @@ BigCalendar.momentLocalizer(moment); // or globalizeLocalizer
 
 
 const MyCalendar = props => (
-  <div style = {{height: 600, color: "white", background: "black", fontSize:"1rem" }}>
+  <div style = {{height: 600, fontSize:"1rem" }}>
     <BigCalendar
       events={[
         {
             title: "Tom Walsh",
-            start: new Date(2018, 6, 27), 
-            end: new Date(2018, 6, 27), 
+            start: new Date(2018, 6, 27, 19, 0), 
+            end: new Date(2018, 6, 27, 19, 0), 
             allDay: false 
         },
         {
@@ -143,10 +143,8 @@ const MyCalendar = props => (
         },
       ]}
 
-      step={60}
-      view='month'
-      views={['month']}
-      onView={() => {}}
+      defaultDate={new Date()}
+      defaultView="month"
   
     />
   </div>
