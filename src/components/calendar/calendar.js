@@ -12,7 +12,7 @@ BigCalendar.momentLocalizer(moment); // or globalizeLocalizer
 
 
 const MyCalendar = props => (
-  <div style = {{height: 600, fontSize:"1rem" }}>
+  <div className="calendar" style = {{height: 600, fontSize:"1rem" }}>
     <BigCalendar
       events={[
         {
